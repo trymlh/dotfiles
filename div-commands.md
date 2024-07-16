@@ -97,6 +97,26 @@
   git reset --hard HEAD~1
   ```
 
+### Vim installation
+
+- **Add plugin manager:**
+  ```bash
+  curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  ```
+
+- **Make config file:**
+  ```bash
+  mkdir -p ~/.config/nvim
+  nano ~/.config/nvim/init.vim
+  ```
+
+- **Run command in nvim:**
+  ```bash
+  :source ~/.config/nvim/init.vim
+  :PlugInstall
+  ```
+
 ### Advanced Git Commands
 
 - **Interactive rebase to modify commits:**
