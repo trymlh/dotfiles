@@ -6,7 +6,6 @@
 - **Initialize a new Git repository:**
   ```bash
   git init
-````
 
 - **Clone a repository:**
   ```bash
