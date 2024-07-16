@@ -1,0 +1,26 @@
+[user]
+    name = trymlh
+    email = trymlh@gmail.com
+
+[github]
+    user = trymlh
+
+[core]
+    editor = zed --wait
+    autocrlf = input
+
+[credential]
+    helper = cache --timeout=3600
+
+[alias]
+    co = checkout
+    br = branch
+    ci = commit
+    st = status
+    lg = log --oneline --graph --decorate --all
+
+[push]
+    default = simple
+
+[init]
+    defaultBranch = main
